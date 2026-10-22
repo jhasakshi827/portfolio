@@ -1,0 +1,940 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <meta name="description"
+    content="Arya Sakshi Jha — Web Developer specializing in Custom WordPress Development, Elementor Pro, PHP, JavaScript, SEO, performance optimization and responsive web design.">
+
+  <meta name="theme-color" content="#080510">
+
+  <title>Arya Sakshi Jha | Web Developer</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600;700&family=Inter:wght@400;500;600;700;800;900&display=swap"
+    rel="stylesheet">
+
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+  <!-- BACKGROUND -->
+  <div class="site-noise" aria-hidden="true"></div>
+  <div class="background-grid" aria-hidden="true"></div>
+  <div class="background-glow glow-one" aria-hidden="true"></div>
+  <div class="background-glow glow-two" aria-hidden="true"></div>
+
+  <!-- SCROLL PROGRESS -->
+  <div id="scrollProgress"></div>
+
+  <!-- HEADER -->
+  <header class="site-header">
+
+    <div class="header-inner">
+
+      <a class="brand" href="#home" aria-label="Arya Sakshi Jha home">
+        <span class="brand-bracket">&lt;</span>
+        <span class="brand-name">ASJ</span>
+        <span class="brand-bracket">/&gt;</span>
+      </a>
+
+      <nav class="nav-links" id="navLinks">
+
+        <a class="active" href="#home">
+          <span>01</span> home
+        </a>
+
+        <a href="#about">
+          <span>02</span> about
+        </a>
+
+        <a href="#skills">
+          <span>03</span> skills
+        </a>
+
+        <a href="#experience">
+          <span>04</span> experience
+        </a>
+
+        <a href="#projects">
+          <span>05</span> projects
+        </a>
+
+        <a href="#education">
+          <span>06</span> education
+        </a>
+
+        <a href="#contact">
+          <span>07</span> contact
+        </a>
+
+      </nav>
+
+      <a
+        class="resume-link"
+        href="./resume.pdf"
+        target="_blank"
+        rel="noopener noreferrer">
+        resume.pdf <span>↗</span>
+      </a>
+
+      <button
+        class="mobile-menu-button"
+        id="mobileMenu"
+        type="button"
+        aria-label="Toggle navigation"
+        aria-expanded="false">
+
+        <span></span>
+        <span></span>
+        <span></span>
+
+      </button>
+
+    </div>
+
+  </header>
+
+  <main>
+
+    <!-- =====================================================
+         01 / HOME — PURPLE NEON DEVELOPER HERO
+    ====================================================== -->
+
+  
+<!-- =========================
+     HERO SECTION
+========================= -->
+
+<section class="hero-v2" id="home">
+
+    <div class="hero-v2-grid" aria-hidden="true"></div>
+    <div class="hero-v2-glow hero-v2-glow-left" aria-hidden="true"></div>
+    <div class="hero-v2-glow hero-v2-glow-right" aria-hidden="true"></div>
+
+    <div class="hero-v2-container">
+
+        <div class="hero-v2-top">
+
+            <!-- LEFT: INTRODUCTION -->
+            <div class="hero-v2-intro">
+
+               <h1 class="hero-v2-title">
+  Hi, I'm <span class="gradient-text">Arya Sakshi Jha</span>
+</h1>
+                <h2 class="hero-v2-role">
+                    WordPress Developer
+                    <span class="hero-v2-role-divider">/</span>
+                    Web Developer
+                </h2>
+
+                <p class="hero-v2-description">
+                    I create modern, responsive digital experiences with
+                    custom WordPress development, clean code, thoughtful
+                    design, and performance-focused solutions.
+                </p>
+
+                <div class="hero-v2-buttons">
+    <a href="#projects" class="btn btn-primary">
+        Explore My Work
+    </a>
+
+    <a href="resume.pdf" class="btn btn-primary" download>
+        Download Resume
+    </a>
+</div>
+
+                <div class="hero-v2-socials">
+                    <a href="https://github.com/jhasakshi827"
+                       target="_blank"
+                       rel="noopener noreferrer">
+                        GITHUB <span aria-hidden="true">↗</span>
+                    </a>
+
+                    <span class="hero-v2-social-divider">/</span>
+
+                    <a href="https://www.linkedin.com/in/arya-sakshi-jha-1a100b3a5/"
+                       target="_blank"
+                       rel="noopener noreferrer">
+                        LINKEDIN <span aria-hidden="true">↗</span>
+                    </a>
+                </div>
+
+            </div>
+
+            <!-- RIGHT: PORTRAIT -->
+            <div class="hero-v2-portrait-area">
+
+                <div class="hero-v2-portrait-orbit" aria-hidden="true"></div>
+                <div class="hero-v2-portrait-glow" aria-hidden="true"></div>
+
+                <div class="hero-v2-portrait-frame">
+                    <img
+                        src="./images/sakshi.jpg"
+                        alt="Portrait of Arya Sakshi Jha"
+                        class="hero-v2-portrait"
+                        fetchpriority="high"
+                    >
+                </div>
+
+                <div class="hero-v2-floating-tag hero-v2-tag-top">
+                    <span class="hero-v2-tag-icon">&lt;/&gt;</span>
+                    <span>
+                        <small>CRAFTING WITH</small>
+                        <strong>CODE &amp; CREATIVITY</strong>
+                    </span>
+                </div>
+
+                <div class="hero-v2-floating-tag hero-v2-tag-bottom">
+                    <span class="hero-v2-availability-dot"></span>
+                    <span>DESIGN. DEVELOP. DEPLOY.</span>
+                </div>
+
+                <span class="hero-v2-decoration hero-v2-decoration-one"
+                      aria-hidden="true">✳</span>
+
+                <span class="hero-v2-decoration hero-v2-decoration-two"
+                      aria-hidden="true">+</span>
+
+            </div>
+
+        </div>
+
+        <!-- DEVELOPER CODE CARD -->
+        <div class="hero-v2-terminal">
+
+            <div class="hero-v2-terminal-header">
+                <div class="hero-v2-terminal-controls" aria-hidden="true">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+
+           <div class="hero-v2-terminal-content">
+    <div class="code-line">
+        <span class="line-number">01</span>
+        <span class="code-text"><span class="code-keyword">const</span> developer = {</span>
+    </div>
+
+    <div class="code-line">
+        <span class="line-number">02</span>
+        <span class="code-text">  name: <span class="code-string">"Arya Sakshi Jha"</span>,</span>
+    </div>
+
+    <div class="code-line">
+        <span class="line-number">03</span>
+        <span class="code-text">  specialty: <span class="code-string">"WordPress & Web"</span>,</span>
+    </div>
+
+    <div class="code-line">
+        <span class="line-number">04</span>
+        <span class="code-text">  stack: [<span class="code-string">"PHP"</span>, <span class="code-string">"JS"</span>, <span class="code-string">"CSS"</span>],</span>
+    </div>
+
+    <div class="code-line">
+        <span class="line-number">05</span>
+        <span class="code-text">  mindset: <span class="code-string">"Always building"</span></span>
+    </div>
+
+    <div class="code-line">
+        <span class="line-number">06</span>
+        <span class="code-text">};<span class="code-cursor"></span></span>
+    </div>
+</div>
+          
+
+        </div>
+
+        <!-- TECHNOLOGY STRIP -->
+        
+<div class="hero-v2-tech-strip">
+
+    <!-- Row 1: moves left -->
+    <div class="hero-v2-tech-track">
+        <div class="hero-v2-tech-group">
+            <span class="hero-v2-tech-item">WordPress</span>
+            <span class="hero-v2-tech-item">Elementor Pro</span>
+            <span class="hero-v2-tech-item">PHP</span>
+            <span class="hero-v2-tech-item">JavaScript</span>
+            <span class="hero-v2-tech-item">React.js</span>
+            <span class="hero-v2-tech-item">SEO & Performance</span>
+        </div>
+        <div class="hero-v2-tech-group" aria-hidden="true">
+            <span class="hero-v2-tech-item">WordPress</span>
+            <span class="hero-v2-tech-item">Elementor Pro</span>
+            <span class="hero-v2-tech-item">PHP</span>
+            <span class="hero-v2-tech-item">JavaScript</span>
+            <span class="hero-v2-tech-item">React.js</span>
+            <span class="hero-v2-tech-item">SEO & Performance</span>
+        </div>
+    </div>
+
+    <!-- Row 2: moves right -->
+    <div class="hero-v2-tech-track reverse">
+        <div class="hero-v2-tech-group">
+            <span class="hero-v2-tech-item">Responsive Design</span>
+            <span class="hero-v2-tech-item">HTML5 & CSS3</span>
+            <span class="hero-v2-tech-item">Website Optimization</span>
+            <span class="hero-v2-tech-item">UI Development</span>
+            <span class="hero-v2-tech-item">Web Development</span>
+        </div>
+        <div class="hero-v2-tech-group" aria-hidden="true">
+            <span class="hero-v2-tech-item">Responsive Design</span>
+            <span class="hero-v2-tech-item">HTML5 & CSS3</span>
+            <span class="hero-v2-tech-item">Website Optimization</span>
+            <span class="hero-v2-tech-item">UI Development</span>
+            <span class="hero-v2-tech-item">Web Development</span>
+        </div>
+    </div>
+
+</div>
+
+
+    </div>
+
+    <a href="#about" class="hero-v2-scroll">
+        <span class="hero-v2-scroll-line" aria-hidden="true"></span>
+        <span>SCROLL TO EXPLORE</span>
+    </a>
+
+</section>
+
+<!-- END HERO SECTION -->
+
+
+   
+<!-- =========================
+     ABOUT SECTION
+========================= -->
+
+<section class="about-v2 section" id="about">
+
+    <div class="about-v2-inner">
+
+        <!-- About Content -->
+        <div class="about-v2-content">
+
+            <span class="eyebrow">ABOUT ME</span>
+
+            <h2 class="about-v2-heading">
+                Building Digital
+                <span class="gradient-text">Experiences</span>
+            </h2>
+
+            <div class="about-v2-text">
+
+                <p>
+                    Hi, I'm <strong>Arya Sakshi Jha</strong>, a
+                    WordPress Developer passionate about building
+                    responsive, user-friendly, and high-performing
+                    digital experiences.
+                </p>
+
+                <p>
+                    With <strong>2+ years of hands-on experience</strong>,
+                    I work on custom WordPress development, Elementor
+                    customization, website optimization, and dynamic
+                    web applications.
+                </p>
+
+                <p>
+                    At the Electronics and Computer Software Export
+                    Promotion Council (ESC), I have contributed to
+                    multiple websites, B2B portals, event platforms,
+                    custom dashboards, and workflow automation projects.
+                </p>
+
+                <p>
+                    My goal is to combine <span class="about-v2-highlight">
+                    clean code, thoughtful UI/UX, and practical problem-solving
+                    </span> to create digital products that deliver real value.
+                </p>
+
+            </div>
+
+            <!-- About Statistics -->
+            <div class="about-v2-stats">
+
+                <div class="about-v2-stat">
+                    <span class="about-v2-stat-number">2+</span>
+                    <span class="about-v2-stat-label">Years Experience</span>
+                </div>
+
+                <div class="about-v2-stat">
+                    <span class="about-v2-stat-number">10+</span>
+                    <span class="about-v2-stat-label">Projects Worked On</span>
+                </div>
+
+                <div class="about-v2-stat">
+                    <span class="about-v2-stat-number">3+</span>
+                    <span class="about-v2-stat-label">Platforms & Tools</span>
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- Developer Profile Card -->
+        <div class="about-v2-panel">
+
+            <div class="about-v2-panel-header">
+
+                <div class="about-v2-panel-icon">
+                    &lt;/&gt;
+                </div>
+
+                <div>
+                    <h3 class="about-v2-panel-title">Developer Profile</h3>
+                    <p class="about-v2-panel-subtitle">
+                        A little more about my journey
+                    </p>
+                </div>
+
+            </div>
+
+            <div class="about-v2-details">
+
+                <div class="about-v2-detail">
+                    <span class="about-v2-detail-label">Name</span>
+                    <span class="about-v2-detail-value">
+                        Arya Sakshi Jha
+                    </span>
+                </div>
+
+                <div class="about-v2-detail">
+                    <span class="about-v2-detail-label">Role</span>
+                    <span class="about-v2-detail-value">
+                        WordPress Developer
+                    </span>
+                </div>
+
+                <div class="about-v2-detail">
+                    <span class="about-v2-detail-label">Experience</span>
+                    <span class="about-v2-detail-value">
+                        2.11+ Years
+                    </span>
+                </div>
+
+                <div class="about-v2-detail">
+                    <span class="about-v2-detail-label">Education</span>
+                    <span class="about-v2-detail-value">
+                        MCA — 2026
+                    </span>
+                </div>
+
+                <div class="about-v2-detail">
+                    <span class="about-v2-detail-label">Specialization</span>
+                    <span class="about-v2-detail-value">
+                        WordPress, Elementor, PHP & Web Design
+                    </span>
+                </div>
+
+                <div class="about-v2-detail">
+                    <span class="about-v2-detail-label">Organization</span>
+                    <span class="about-v2-detail-value">
+                        Electronics and Computer Software Export
+                        Promotion Council (ESC)
+                    </span>
+                </div>
+
+                <div class="about-v2-detail">
+                    <span class="about-v2-detail-label">Location</span>
+                    <span class="about-v2-detail-value">
+                        New Delhi, India
+                    </span>
+                </div>
+
+                <div class="about-v2-detail">
+                    <span class="about-v2-detail-label">Interests</span>
+                    <span class="about-v2-detail-value">
+                        Web Development, UI/UX & Optimization
+                    </span>
+                </div>
+
+            </div>
+
+            <div class="about-v2-status">
+                Open to exciting opportunities
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- END ABOUT SECTION -->
+
+
+<!-- =========================
+     SKILLS SECTION
+========================= -->
+
+<section class="skills-v2 section" id="skills">
+
+    <div class="section-inner">
+
+        <!-- Section Heading -->
+        <div class="skills-v2-header">
+
+            <span class="eyebrow">MY TECH STACK</span>
+
+            <h2 class="skills-v2-heading">
+                Skills &amp;
+                <span class="gradient-text">Expertise</span>
+            </h2>
+
+            <p class="skills-v2-description">
+                Technologies and tools I use to build responsive websites,
+                custom WordPress solutions, and engaging digital experiences.
+            </p>
+
+        </div>
+
+        <!-- Skills Grid -->
+        <div class="skills-v2-grid">
+
+            <!-- WordPress Skills -->
+            <article class="skills-v2-card">
+
+                <div class="skills-v2-card-header">
+                    <div class="skills-v2-icon">&lt;/&gt;</div>
+                    <div>
+                        <h3 class="skills-v2-card-title">WordPress Development</h3>
+                        <p class="skills-v2-card-subtitle">CMS &amp; Website Development</p>
+                    </div>
+                </div>
+
+                <div class="skills-v2-list">
+
+                    <div class="skills-v2-item">
+                        <div class="skills-v2-item-top">
+                            <span class="skills-v2-name">Custom WordPress Development</span>
+                            <span class="skills-v2-percent">95%</span>
+                        </div>
+                        <div class="skills-v2-track">
+                            <span class="skills-v2-progress" style="--skill-level: 95%;"></span>
+                        </div>
+                    </div>
+
+                    <div class="skills-v2-item">
+                        <div class="skills-v2-item-top">
+                            <span class="skills-v2-name">Elementor Pro Customization</span>
+                            <span class="skills-v2-percent">95%</span>
+                        </div>
+                        <div class="skills-v2-track">
+                            <span class="skills-v2-progress" style="--skill-level: 95%;"></span>
+                        </div>
+                    </div>
+
+                    <div class="skills-v2-item">
+                        <div class="skills-v2-item-top">
+                            <span class="skills-v2-name">Website Security &amp; Maintenance</span>
+                            <span class="skills-v2-percent">90%</span>
+                        </div>
+                        <div class="skills-v2-track">
+                            <span class="skills-v2-progress" style="--skill-level: 90%;"></span>
+                        </div>
+                    </div>
+
+                    <div class="skills-v2-item">
+                        <div class="skills-v2-item-top">
+                            <span class="skills-v2-name">WooCommerce &amp; Plugin Customization</span>
+                            <span class="skills-v2-percent">88%</span>
+                        </div>
+                        <div class="skills-v2-track">
+                            <span class="skills-v2-progress" style="--skill-level: 88%;"></span>
+                        </div>
+                    </div>
+
+                </div>
+
+            </article>
+
+
+            <!-- Frontend Skills -->
+            <article class="skills-v2-card">
+
+                <div class="skills-v2-card-header">
+                    <div class="skills-v2-icon">✦</div>
+                    <div>
+                        <h3 class="skills-v2-card-title">Frontend Development</h3>
+                        <p class="skills-v2-card-subtitle">UI, Layouts &amp; Interactions</p>
+                    </div>
+                </div>
+
+                <div class="skills-v2-list">
+
+                    <div class="skills-v2-item">
+                        <div class="skills-v2-item-top">
+                            <span class="skills-v2-name">HTML</span>
+                            <span class="skills-v2-percent">95%</span>
+                        </div>
+                        <div class="skills-v2-track">
+                            <span class="skills-v2-progress" style="--skill-level: 95%;"></span>
+                        </div>
+                    </div>
+
+                    <div class="skills-v2-item">
+                        <div class="skills-v2-item-top">
+                            <span class="skills-v2-name">CSS &amp; Responsive Design</span>
+                            <span class="skills-v2-percent">95%</span>
+                        </div>
+                        <div class="skills-v2-track">
+                            <span class="skills-v2-progress" style="--skill-level: 95%;"></span>
+                        </div>
+                    </div>
+
+                    <div class="skills-v2-item">
+                        <div class="skills-v2-item-top">
+                            <span class="skills-v2-name">JavaScript</span>
+                            <span class="skills-v2-percent">85%</span>
+                        </div>
+                        <div class="skills-v2-track">
+                            <span class="skills-v2-progress" style="--skill-level: 85%;"></span>
+                        </div>
+                    </div>
+
+                    <div class="skills-v2-item">
+                        <div class="skills-v2-item-top">
+                            <span class="skills-v2-name">React.js</span>
+                            <span class="skills-v2-percent">80%</span>
+                        </div>
+                        <div class="skills-v2-track">
+                            <span class="skills-v2-progress" style="--skill-level: 80%;"></span>
+                        </div>
+                    </div>
+
+                </div>
+
+            </article>
+
+
+            <!-- Optimization Skills -->
+            <article class="skills-v2-card">
+
+                <div class="skills-v2-card-header">
+                    <div class="skills-v2-icon">↗</div>
+                    <div>
+                        <h3 class="skills-v2-card-title">Optimization &amp; Integration</h3>
+                        <p class="skills-v2-card-subtitle">Performance &amp; Automation</p>
+                    </div>
+                </div>
+
+                <div class="skills-v2-list">
+
+                    <div class="skills-v2-item">
+                        <div class="skills-v2-item-top">
+                            <span class="skills-v2-name">Website Speed Optimization</span>
+                            <span class="skills-v2-percent">90%</span>
+                        </div>
+                        <div class="skills-v2-track">
+                            <span class="skills-v2-progress" style="--skill-level: 90%;"></span>
+                        </div>
+                    </div>
+
+                    <div class="skills-v2-item">
+                        <div class="skills-v2-item-top">
+                            <span class="skills-v2-name">SEO Optimization</span>
+                            <span class="skills-v2-percent">90%</span>
+                        </div>
+                        <div class="skills-v2-track">
+                            <span class="skills-v2-progress" style="--skill-level: 90%;"></span>
+                        </div>
+                    </div>
+
+                    <div class="skills-v2-item">
+                        <div class="skills-v2-item-top">
+                            <span class="skills-v2-name">Zapier Integration</span>
+                            <span class="skills-v2-percent">85%</span>
+                        </div>
+                        <div class="skills-v2-track">
+                            <span class="skills-v2-progress" style="--skill-level: 85%;"></span>
+                        </div>
+                    </div>
+
+                    <div class="skills-v2-item">
+                        <div class="skills-v2-item-top">
+                            <span class="skills-v2-name">Cross-Browser Compatibility</span>
+                            <span class="skills-v2-percent">90%</span>
+                        </div>
+                        <div class="skills-v2-track">
+                            <span class="skills-v2-progress" style="--skill-level: 90%;"></span>
+                        </div>
+                    </div>
+
+                </div>
+
+            </article>
+
+
+            <!-- Programming & Tools -->
+            <article class="skills-v2-card">
+
+                <div class="skills-v2-card-header">
+                    <div class="skills-v2-icon">{ }</div>
+                    <div>
+                        <h3 class="skills-v2-card-title">Programming &amp; Tools</h3>
+                        <p class="skills-v2-card-subtitle">Languages &amp; Design Tools</p>
+                    </div>
+                </div>
+
+                <div class="skills-v2-tags">
+
+                    <span class="skills-v2-tag">PHP</span>
+                    <span class="skills-v2-tag">Java</span>
+                    <span class="skills-v2-tag">SQL</span>
+                    <span class="skills-v2-tag">Python</span>
+                    <span class="skills-v2-tag">Figma</span>
+                    <span class="skills-v2-tag">REST APIs</span>
+                    <span class="skills-v2-tag">Gutenberg</span>
+                    <span class="skills-v2-tag">WooCommerce</span>
+                    <span class="skills-v2-tag">Custom Plugins</span>
+                    <span class="skills-v2-tag">UI/UX Design</span>
+
+                </div>
+
+            </article>
+
+        </div>
+
+        <p class="skills-v2-note">
+            Skill percentages are indicative self-assessments. Adjust them
+            to reflect your actual proficiency and experience.
+        </p>
+
+    </div>
+
+</section>
+
+<!-- END SKILLS SECTION -->
+
+<!-- =========================
+     EXPERIENCE SECTION
+========================= -->
+
+<section class="experience-v2 section" id="experience">
+
+    <div class="section-inner">
+
+        <!-- Section Heading -->
+        <div class="experience-v2-header">
+
+            <span class="eyebrow">MY JOURNEY</span>
+
+            <h2 class="experience-v2-heading">
+                Professional
+                <span class="gradient-text">Experience</span>
+            </h2>
+
+            <p class="experience-v2-description">
+                My professional journey building websites, custom
+                WordPress solutions, B2B platforms, and digital systems.
+            </p>
+
+        </div>
+
+
+        <!-- Experience Timeline -->
+        <div class="experience-v2-timeline">
+
+            <!-- Experience Item -->
+            <article class="experience-v2-item">
+
+                <div class="experience-v2-marker">
+                    <span></span>
+                </div>
+
+                <div class="experience-v2-card">
+
+                    <div class="experience-v2-top">
+
+                        <div class="experience-v2-company-icon">
+                            &lt;/&gt;
+                        </div>
+
+                        <div class="experience-v2-title-group">
+
+                            <h3 class="experience-v2-role">
+                                Executive Web Developer
+                            </h3>
+
+                            <p class="experience-v2-company">
+                                Electronics and Computer Software Export
+                                Promotion Council (ESC)
+                            </p>
+
+                        </div>
+
+                        <span class="experience-v2-badge">
+                            Professional Experience
+                        </span>
+
+                    </div>
+
+
+                    <div class="experience-v2-meta">
+
+                        <span class="experience-v2-meta-item">
+                            <span class="experience-v2-meta-icon">▦</span>
+                            New Delhi, India
+                        </span>
+
+                        <span class="experience-v2-meta-item">
+                            <span class="experience-v2-meta-icon">◷</span>
+                            2+ Years Experience
+                        </span>
+
+                    </div>
+
+
+                    <div class="experience-v2-divider"></div>
+
+
+                    <p class="experience-v2-summary">
+                        Developing, maintaining, and optimizing digital
+                        platforms for ESC, including organizational websites,
+                        B2B meeting portals, event platforms, and custom
+                        dashboards.
+                    </p>
+
+
+                    <!-- Responsibilities -->
+                    <h4 class="experience-v2-subheading">
+                        Key Responsibilities
+                    </h4>
+
+                    <ul class="experience-v2-list">
+
+                        <li>
+                            Develop and maintain multiple WordPress websites
+                            using Elementor, custom themes, plugins, PHP,
+                            HTML, CSS, and JavaScript.
+                        </li>
+
+                        <li>
+                            Build custom website sections, responsive
+                            interfaces, reusable templates, and dynamic
+                            functionality based on project requirements.
+                        </li>
+
+                        <li>
+                            Work on B2B meeting portals with user profiles,
+                            matchmaking workflows, filters, categories,
+                            and account-related functionality.
+                        </li>
+
+                        <li>
+                            Contribute to event platforms, exhibitor systems,
+                            custom PHP dashboards, and internal digital tools.
+                        </li>
+
+                        <li>
+                            Improve website performance, responsiveness,
+                            search engine optimization, and ongoing website
+                            maintenance.
+                        </li>
+
+                        <li>
+                            Support integrations and workflow automation
+                            involving forms, spreadsheets, APIs, and
+                            external platforms.
+                        </li>
+
+                        <li>
+                            Collaborate with developers, designers, and
+                            marketing teams to deliver project requirements.
+                        </li>
+
+                    </ul>
+
+
+                    <!-- Key Projects -->
+                    <h4 class="experience-v2-subheading">
+                        Selected Work
+                    </h4>
+
+                    <div class="experience-v2-projects">
+
+                        <a
+                            href="https://escindia.in/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            class="experience-v2-project-link"
+                        >
+                            ESC India Website
+                            <span>↗</span>
+                        </a>
+
+                        <a
+                            href="https://indiasoft.org/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            class="experience-v2-project-link"
+                        >
+                            IndiaSoft
+                            <span>↗</span>
+                        </a>
+
+                        <a
+                            href="https://indiaelectronicsexpo.com/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            class="experience-v2-project-link"
+                        >
+                            India Electronics Expo
+                            <span>↗</span>
+                        </a>
+
+                        <a
+                            href="https://escawards.in/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            class="experience-v2-project-link"
+                        >
+                            ESC Awards
+                            <span>↗</span>
+                        </a>
+
+                    </div>
+
+
+                    <!-- Technology Tags -->
+                    <h4 class="experience-v2-subheading">
+                        Technologies &amp; Tools
+                    </h4>
+
+                    <div class="experience-v2-tags">
+
+                        <span class="experience-v2-tag">WordPress</span>
+                        <span class="experience-v2-tag">Elementor Pro</span>
+                        <span class="experience-v2-tag">PHP</span>
+                        <span class="experience-v2-tag">JavaScript</span>
+                        <span class="experience-v2-tag">HTML5</span>
+                        <span class="experience-v2-tag">CSS3</span>
+                        <span class="experience-v2-tag">REST APIs</span>
+                        <span class="experience-v2-tag">SEO</span>
+                        <span class="experience-v2-tag">MySQL</span>
+                        <span class="experience-v2-tag">Supabase</span>
+
+                    </div>
+
+                </div>
+
+            </article>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- 
